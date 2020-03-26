@@ -1,7 +1,13 @@
-# simulate Brownian motion
-# n = number of steps
-# sigma = SD of step size
-# output is an nx2 matrix of positions
+#' Simulate Brownian motion
+#'
+#' @param n number of steps
+#' @param sigma SD of step size
+#'
+#' @return an nx2 matrix of positions
+#' @export
+#'
+#' @examples
+#' x <- simBrM(1000)
 simBrM <-
 function(n, sigma=1)
 {
@@ -13,10 +19,18 @@ function(n, sigma=1)
     apply(x, 2, cumsum)
 }
 
-# plot Brownian motion
-# x = matrix with two columns
-# pointcolor = color of start and end points
-# ... = passed to plot()
+#' Plot Brownian motion
+#'
+#' @param x matrix with two columns
+#' @param pointcolor  color of start and end points
+#' @param ... passed to plot()
+#'
+#' @return None
+#' @export
+#'
+#' @examples
+#' x <- simBrM(1000)
+#' plotBrM(x)
 plotBrM <-
 function(x, pointcolor=c("springgreen", "violetred"), ...)
 {
