@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "broman@wisc.edu")
 Description: Simulate and plot Brownian motion.
-License: What license it uses
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/kbroman/simBrM
