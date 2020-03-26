@@ -5,6 +5,7 @@
 #'
 #' @return an nx2 matrix of positions
 #' @export
+#' @importFrom stats rnorm
 #'
 #' @examples
 #' x <- simBrM(1000)
@@ -27,6 +28,7 @@ function(n, sigma=1)
 #'
 #' @return None
 #' @export
+#' @importFrom graphics plot points
 #'
 #' @examples
 #' x <- simBrM(1000)

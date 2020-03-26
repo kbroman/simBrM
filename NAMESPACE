@@ -2,3 +2,6 @@
 
 export(plotBrM)
 export(simBrM)
+importFrom(graphics,plot)
+importFrom(graphics,points)
+importFrom(stats,rnorm)

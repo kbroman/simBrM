@@ -13,3 +13,6 @@ LazyData: true
 URL: https://github.com/kbroman/simBrM
 BugReports: https://github.com/kbroman/simBrM/issues
 RoxygenNote: 7.1.0
+Imports: 
+    stats,
+    graphics
