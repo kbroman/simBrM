@@ -1,7 +1,8 @@
 
 # simBrM
 
-R package to simulate and plot Brownian motion.
+R package to simulate and plot Brownian motion, written to illustrate R package development, as part of the course [Advanced Data Analysis](https://kbroman.org/AdvData).
+
 
 ## Installation
 
